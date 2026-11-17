@@ -40,7 +40,7 @@
   /* Slider */
   $$('[data-slider]').forEach(function (root) {
     var slides = $$('.slide', root), chips = $$('.chip', root), bar = $('.slider__bar i', root);
-    var count = $('[data-count]', root), kick = $('[data-kick]', root), title = $('[data-title]', root), text = $('[data-text]', root);
+    var count = $('[data-count]', root), kick = $('.slider__kick', root), title = $('.slider__title', root), text = $('.slider__text', root);
     var i = 0, timer;
     function go(n) {
       i = (n + slides.length) % slides.length;

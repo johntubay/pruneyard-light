@@ -29,6 +29,10 @@ This is a second layout option for the client to compare with the dark v2.1 buil
 
 The animations use GSAP 3.12.5 with ScrollTrigger and Lenis 1.1.13, loaded from CDNs. If those scripts don't load, the site still works, with simpler fade-ins.
 
+## Room pages (added)
+
+The client asked for separate Kitchen, Bathroom and Living Spaces pages: `kitchens.html`, `bathrooms.html` and `living-spaces.html`. They sit under Services, with a "By room" row in the Services dropdown, sub-links in the mobile menu, room cards under the slider on the Services page and a "Rooms" row in the footer. Their text uses only facts already on the site; the photos are Unsplash stock like the rest.
+
 ## Open items (same as v2.1)
 - **Logo:** the header uses a typographic wordmark only as a stand-in. The final logo is still pending from Anthony.
 - **Photos:** all photos are free Unsplash stock, loaded from images.unsplash.com. Replace them with Rob's photos once he sends them.
